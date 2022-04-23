@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body> 
+        <div id="links">
+            <a href="index.html" >Search</a>
+            <a href="image.html" >Image Search</a>
+        </div>
+        
+        <div><H1>Advanced Search</H1></div>
+        <div id="bobu"></div>
+        <div><H2>Find pages with...</H2></div>
+        <form action="https://www.google.com/search" >
+            <div id="allin">
+                <div class="div1">
+                    <label class="labels" for="atw">all these words:</label>
+                </div>
+                <div class="div2">
+                    <input   class="srbx" type="text" name="as_q" autocomplete="off" id="atw" >
+                </div>
+                <div class="div1">   
+                    <label class="labels" for="tewop">this exact word or phrase:</label>
+                </div>
+                <div class="div2">
+                        <input class="srbx" type="text" name="as_epq" autocomplete="off" id="tewop" >
+                </div>
+                <div class="div1">   
+                    <label class="labels" for="aotw">any of these words:</label>
+                </div>
+                <div class="div2">
+                    <input class="srbx" type="text" name="as_oq" autocomplete="off" id="aotw" >
+                </div>
+                <div class="div1">   
+                    <label class="labels" for="notw">none of these words:</label>
+                </div>
+                <div class="div2">
+                    <input class="srbx" type="text" name="as_eq" autocomplete="off" id="notw" >
+                </div>
+                <div id="input"><input id="adsbtn" type="submit" value="Advanced Search"> </div>
+            </div>
+        </form>
+
+
+
+    </body>
+</html>
